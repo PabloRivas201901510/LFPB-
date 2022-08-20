@@ -1,0 +1,28 @@
+# EJEMPLO PRACTICO CLASE 5
+
+# CTRL + K, y luego V
+
+# dot.exe -Tpng ejemplo.dot -o  resultado.png
+digraph {
+
+    rankdir=LR
+
+    node[shape=circle, fontname="Arial"]
+
+    node1[color=orange, style=filled, label="TEMA"]
+    node2[color=green, style=filled]
+    node3[shape=record]
+    node4[shape=record]
+    node5[shape=polygon, sides=8, color=red, style=filled]
+    
+    node1[label="Clase5"]
+    node3[label="A | {B1 | B2 | B3} | {C1 | C2}"]
+    node4[label="{A | {B1 | B2 | B3} | {C1 | C2}}"]
+
+    node1 -> node2[label="conexion 1", color=blue, fontname="Arial"]
+    node1 -> node3[label="conexion 2", fontname="Arial"]
+    node3 -> node3[label="conexion 3"]
+    node3 -> node4[label="conexion 4"]
+    node4 -> node5[label="conexion 5"]
+}
+
