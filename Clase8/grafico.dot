@@ -1,0 +1,29 @@
+# < Numero > 40 < / Numero >
+
+# VER GRAMTICA
+
+# S0 -> < S1
+# S1 -> Numero S2
+# S2 -> > S3
+# S3 -> digitoentero S4
+#     | digitodecimal S4
+# S4 -> < S5
+# S5 -> / S6
+# S6 -> Numero S7
+# S7 -> > S8
+# S8 -> E
+
+digraph {
+    rankdir = LR
+    node[shape=circle]
+    S8[shape=record]
+    S0 -> S1 [label="<"]
+    S1 -> S2 [label="Numero"]
+    S2 -> S3 [label=">"]
+    S3 -> S4 [label="digitoentero"]
+    S3 -> S4 [label="digitodecimal"]
+    S4 -> S5 [label="<"]
+    S5 -> S6 [label="/"]
+    S6 -> S7 [label="Numero"]
+    S7 -> S8 [label=">"]
+}
