@@ -1,0 +1,83 @@
+<Tipo>
+<Operacion=SUMA>
+    <Numero>50</Numero>
+    <Numero>25</Numero>
+</Operacion>
+
+<Operacion=RESTA>
+    <Numero>20</Numero>
+    <Numero>5</Numero>
+</Operacion>
+
+<Operacion=MULTIPLICACION>
+    <Numero>20</Numero>
+    <Numero>4</Numero>
+</Operacion>
+
+<Operacion=DIVISION>
+    <Numero>500</Numero>
+    <Numero>25</Numero>
+</Operacion>
+
+<Operacion=POTENCIA>
+    <Numero>2</Numero>
+    <Numero>3</Numero>
+</Operacion>
+
+<Operacion=RAIZ>
+    <Numero>2</Numero>
+    <Numero>64</Numero>
+</Operacion>
+
+<Operacion=INVERSO>
+    <Numero>60</Numero>
+</Operacion>
+
+<Operacion=SENO>
+    <Numero>90</Numero>
+</Operacion>
+
+<Operacion=COSENO>
+    <Numero>90</Numero>
+</Operacion>
+
+<Operacion=TANGENTE>
+    <Numero>30</Numero>
+</Operacion>
+
+<Operacion=MOD>
+    <Numero>25</Numero>
+    <Numero>7</Numero>
+</Operacion>
+
+</Tipo>
+
+<Texto>
+Archivo de prueba para operaciones simples
+RESULTADOS ESPERADOS
+OP1 SUMA: 50+25 = 75
+OP2 RESTA: 20-5 = 15
+OP3 MULTIPLICACION: 20*4 = 80
+OP4 DIVISION: 500/25 = 20
+OP5 POTENCIA: 3^2 = 9
+OP6 RAIZ: 2√64 = 8
+OP7 INVERSO: 1/60 = 0.01666667
+OP8 SENO: SEN(90) = 0.5
+OP9 COSENO: COS(30) = 0.8660254038
+OP10 TANGENTE: TAN(30) = 0.5773502692
+OP11 MOD: 25%7 = 3
+</Texto>
+
+<Funcion = ESCRIBIR>
+    <Titulo> Operaciones Simples </Titulo>
+    <Descripcion> [TEXTO] </Descripcion>
+    <Contenido> [TIPO] </Contenido>
+</Funcion>
+
+<Estilo>
+    <Titulo Color=AZUL Tamanio=20/>
+    <Descripcion Color=VERDE Tamanio=10/>
+    <Contenido Color=ROJO Tamanio=10>
+</Estilo> 
+
+
