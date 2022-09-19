@@ -7,7 +7,7 @@
 
     <Operacion=DIVISION>
         <Numero>500</Numero>
-        <Numero>25</Numero>
+        <Numero>5</Numero>
     </Operacion>
 </Operacion>
 
@@ -58,5 +58,5 @@ OP3 COMPLEJA: TAN(30)+(1/(SEN(90)+COS(90))) = 1.577350269
 <Estilo>
     <Titulo Color=NEGRO Tamanio=20/>
     <Descripcion Color=ROJO Tamanio=10/>
-    <Contenido Color=AZUL Tamanio=10>
+    <Contenido Color=AZUL Tamanio=10/>
 </Estilo> 
