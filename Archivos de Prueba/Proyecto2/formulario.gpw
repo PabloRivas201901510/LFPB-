@@ -1,0 +1,157 @@
+
+<!--Controles
+    Contenedor contenedor1;
+    Contenedor contenedor2;
+    Contenedor contenedor3;
+
+    Etiqueta etiqueta1;
+    Texto texto1;
+
+    Etiqueta etiqueta2;
+    Texto texto2;
+
+    Etiqueta etiqueta3;
+    Clave clave1;
+
+    Etiqueta etiqueta4;
+    Contenedor contenedor4;
+    RadioBoton radio1;
+    RadioBoton radio2;
+    RadioBoton radio3;
+
+    Etiqueta etiqueta5;
+    Contenedor contenedor5;
+    Check checkbox1;
+    Check checkbox2;
+
+    AreaTexto areatexto1;
+
+    Boton boton1:
+
+Controles -->
+
+<!--propiedades
+    contenedor1.setAncho(800);
+    contenedor1.setAlto(500);
+    contenedor1.setColorFondo(241,205,0);
+
+    contenedor2.setAncho(400);
+    contenedor2.setAlto(350);
+    contenedor2.setColorFondo(0,213,241);
+
+    contenedor3.setAncho(250);
+    contenedor3.setAlto(350);
+    contenedor3.setColorFondo(241,0,221);
+
+    etiqueta1.setAncho(200);
+    etiqueta1.setAlto(10);
+    etiqueta1.setColorLetra(17,0,255);
+    etiqueta1.setTexto("CARNET");
+
+    texto1.setTexto("202101616");
+    texto1.setAlineacion(Centro);
+
+    etiqueta2.setAncho(200);
+    etiqueta2.setAlto(10);
+    etiqueta2.setColorLetra(17,0,255);
+    etiqueta2.setTexto("NOMBRE");
+
+    texto2.setTexto("ESTUDUANTE");
+    texto2.setAlineacion(Derecho);
+
+    etiqueta3.setAncho(200);
+    etiqueta3.setAlto(10);
+    etiqueta3.setColorLetra(17,0,255);
+    etiqueta3.setTexto("CONTRASEÑA");
+
+    clave1.setTexto("usac123");
+    clave1.setAlineacion(Izquierdo);
+
+    etiqueta4.setAncho(200);
+    etiqueta4.setAlto(10);
+    etiqueta4.setColorLetra(17,0,255);
+    etiqueta4.setTexto("GENERO");
+
+    radio1.setMarcada(true);
+    radio1.setGrupo(radiusGroup);
+    radio1.setTexto("Hombre");
+
+    radio2.setMarcada(false);
+    radio2.setGrupo(radiusGroup);
+    radio2.setTexto("Mujer");
+
+    radio3.setMarcada(false);
+    radio3.setGrupo(radiusGroup);
+    radio3.setTexto("Otro");
+
+    etiqueta4.setAncho(200);
+    etiqueta4.setAlto(10);
+    etiqueta4.setColorLetra(17,0,255);
+    etiqueta4.setTexto("JORNADA");
+
+    checkbox1.setMarcada(true);
+    checkbox1.setTexto("Matutina");
+
+    checkbox2.setMarcada(false);
+    checkbox2.setTexto("Vespertina");
+
+    areatexto1.setTexto("Calificacion del proyecto 2 del curso de Lenguajes de programacion");
+
+    boton1.setTexto("Enviar formualrio");
+
+propiedades -->
+
+<!--Colocacion
+    contenedor1.setPosicion(50,100);
+    this.add(contenedor1);
+
+    contenedor2.setPosicion(50,100);
+    contenedor1.add(contenedor2);
+
+    contenedor3.setPosicion(500,100);
+    contenedor1.add(contenedor3);
+
+    etiqueta1.setPosicion(50,25);
+    contenedor2.add(etiqueta1);
+
+    texto1.setPosicion(50,50);
+    contenedor2.add(texto1);
+
+    etiqueta2.setPosicion(50,100);
+    contenedor2.add(etiqueta2);
+
+    texto2.setPosicion(50,125);
+    contenedor2.add(texto2);
+
+    etiqueta3.setPosicion(50,175);
+    contenedor2.add(etiqueta3);
+
+    clave1.setPosicion(50,200);
+    contenedor2.add(clave1);
+
+    etiqueta4.setPosicion(50,25);
+    contenedor3.add(etiqueta4);
+
+    contenedor4.setPosicion(50,50);
+    contenedor3.add(contenedor4);
+
+    contenedor4.add(radio1);
+    contenedor4.add(radio2);
+    contenedor4.add(radio3);
+
+    etiqueta5.setPosicion(50,100);
+    contenedor3.add(etiqueta5);
+
+    contenedor5.setPosicion(50,125);
+    contenedor3.add(contenedor5);
+
+    contenedor5.add(checkbox1);
+    contenedor5.add(checkbox2);
+
+    areatexto1.setPosicion(50,175);
+    contenedor3.add(areatexto1);
+
+    boton1.setPosicion(400,25);
+    contenedor1.add(boton1);
+
+Colocacion -->
