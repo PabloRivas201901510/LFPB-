@@ -26,7 +26,7 @@
 
     AreaTexto areatexto1;
 
-    Boton boton1:
+    Boton boton1;
 
 Controles -->
 
@@ -84,10 +84,10 @@ Controles -->
     radio3.setGrupo(radiusGroup);
     radio3.setTexto("Otro");
 
-    etiqueta4.setAncho(200);
-    etiqueta4.setAlto(10);
-    etiqueta4.setColorLetra(17,0,255);
-    etiqueta4.setTexto("JORNADA");
+    etiqueta5.setAncho(200);
+    etiqueta5.setAlto(10);
+    etiqueta5.setColorLetra(17,0,255);
+    etiqueta5.setTexto("JORNADA");
 
     checkbox1.setMarcada(true);
     checkbox1.setTexto("Matutina");
